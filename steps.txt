@@ -12,3 +12,8 @@ source .venv/bin/activate
 
 .venv/bin/python3 -m pip install --upgrade pip
 .venv/bin/python3 -m pip install -r requirements.txt
+
+after setting up basic backend and frontend:
+- from outside backend folder: .venv/bin/uvicorn backend.main:app --reload
+- from outside frontend folder: cd frontend && npm run dev
+
