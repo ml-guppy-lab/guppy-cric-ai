@@ -1,0 +1,8 @@
+git credential reject
+protocol=https
+host=github.com
+
+initialize repository: git remote add origin https://github.com/ml-guppy-lab/fire_writing.git
+
+cd /path/to/your/new/repo
+git config user.email "sonalsh250@gmail.com"
